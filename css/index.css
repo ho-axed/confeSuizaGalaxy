@@ -1,0 +1,28 @@
+.header-footer{
+    background-color: #061F4A;
+    width: auto;
+    height: auto;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+.h2-footer{
+    text-align: center;
+    margin-left: 0.2rem;
+    color: #FFF;
+}
+
+.text-footer{
+    color: #FFF;
+    text-align: justify;
+    text-align: center;
+}
+
+.warning {
+    color: gray;
+    text-align: center;
+}
