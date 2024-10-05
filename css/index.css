@@ -6,7 +6,7 @@
 }
 
 .navBar {
-    background-color: #061F4A;
+    background-color: #0b3d91;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,56 +100,73 @@
     }
 }
 
-.content{
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.content {
+    margin: 2rem;
     background-color: #93A6C6;
-    height: 30rem;
-    width: 70rem;
+    height: auto;
+    width: -webkit-fill-available;
     border-radius: 0.5rem;
     box-sizing: content-box;
-    }
-    
-    h2 {
-        text-align: center;
-        padding-top: 1rem;
-        font-size: 24px;
-    }
-    
-    p{
-        text-wrap: pretty;
-        margin: 1rem 1rem;
-        font-size: 1.2rem;
-        font-family: sans-serif;
-    }
-    
-    .image-example{
-        width: 100%;
-        height: 100%;
-        border-radius: 0.5rem;  
-        object-fit: cover;
-    }
-    
-    .content-img{
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 24px;
+}
+
+p {
+    text-wrap: pretty;
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.image-example {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.content-img {
+    height: auto;
+    width: -webkit-fill-available;
+    box-sizing: content-box;
+}
+
+
+.img-and-info {
+    display: flex;
+}
+
+.text {
+    display: flex;
+}
+
+.img-h2 {
+    text-align: left;
+    margin-left: 11rem;
+}
+
+.image-header {
+    display: none;
+}
+@media (max-width: 768px) {
+    .content-img {
         height: auto;
-        width: 70rem;
-        box-sizing: content-box;
-    }
-    
-    .img-and-info{
         display: flex;
+        flex-direction: column;
+        width: -webkit-fill-available;
     }
-    
-    .text{
-        display: flex;
+    .img-and-info {
+        flex-direction: column;
     }
-    
-    .img-h2{
-        text-align: left;
-        margin-left: 11rem;
+    .img-h2 {
+        text-align: center;
+        margin-left: 0;
     }
-    
-    .image-header{
-        display:none;
+    .text {
+        flex-direction: column;
     }
+}
