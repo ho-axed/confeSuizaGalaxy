@@ -43,7 +43,7 @@ $(".speciment-image").click(function(event) {
     if (this.id == 'img2') {
         let container = `
         <div class='container-expanded prosto-one-regular' id="card-info">
-            <img src="media/pulpodumbo.png" alt="Imagen de especimenes" class="image-expanded">
+            <img src="media/Pulpo-Luminiscente.jpg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
                 <h3 id='whatIsIt'>¿Que es el Pulpo Luminiscente de Éter (Octolumina quimera)?</h3>
                 <p class='whatIsItDesc'>
