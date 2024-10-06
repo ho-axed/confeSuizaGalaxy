@@ -190,7 +190,7 @@ $(".speciment-image").click(function(event) {
 
 });
 document.getElementById('specimens-options').addEventListener('click', function() {
-    document.getElementById('speciments-h2').scrollIntoView({ behavior: 'smooth' });
+    document.querySelector('.speciment-container-all').scrollIntoView({ behavior: 'smooth' });
 });
 
 document.getElementById('about-options').addEventListener('click', function() {
