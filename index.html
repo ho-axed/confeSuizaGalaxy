@@ -1,38 +1,50 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="./media/logoIcon.png" type="image/x-icon">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./media/logoIcon.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/index.css">
-        <script type="module" src="./js/index.js"></script>
-        <title>ConfeSuizaGalaxy</title>
-    </head>
-    <body>
-        <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="module" src="./js/index.js"></script>
+    <title>ConfeSuizaGalaxy</title>
+</head>
+
+<body>
+    <header>
+        <nav>
             <div class="header-footer">
-                <a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/confe-suiza-galaxy/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/confe-suiza-galaxy/"
+                    target="_blank" rel="noopener noreferrer">
                     <img src="media/logoIcon.png" alt="Logo" class="logo">
                 </a>
+                <ul class="header-options">
+                    <li id="specimens-options" class="red-hat-text">Especímenes</li>
+                    <li id="about-options" class="red-hat-text">Sobre nosotros</li>
+                    <li id="ABYSSALIS-info" class="red-hat-text">Abyssalis</li>
+                </ul>
             </div>
-        </header>
+        </nav>
+    </header>
 
-        <main>
+    <main>
         <div class="all-content">
             <div class="principal-content">
                 <img src="media/img.jpg" alt="Imagen de ejemplo" class="principal-image">
                 <div id="firstSeen">
-                    <h1 class="prosto-one-regular">ABYSSALIS <br> El planeta acuatico</h1>
+                    <h1 class="prosto-one-regular"><b class="AbyssalisTitle">ABYSSALIS </b><br> <b class="sbT">El planeta acuatico</b></h1>
                 </div>
             </div>
-            <h2 class="prosto-one-regular">Especímenes de este planeta</h2>
-            <p class="prosto-one-regular New-planet">Este nuevo planeta no solo cuenta con un ecosistema que nunca antes se habia visto sino que tambien esta integrado con forma de vida completamente distinta a las que se han visto en nuestro planeta</p>
+            <h2 class="prosto-one-regular" id="speciments-h2">Especímenes de este planeta</h2>
+            <p class="red-hat-text New-planet">Este nuevo planeta no solo cuenta con un ecosistema que nunca antes
+                se habia visto sino que tambien esta integrado con forma de vida completamente distinta a las que se han
+                visto en nuestro planeta</p>
             <div class="speciment-container-all">
                 <img src="media/chemovermis-viridis.jpeg" alt="Imagen de especimenes" class="speciment-image" id="img1">
                 <img src="media/pulpodumbo.png" alt="Imagen de especimenes" class="speciment-image" id="img2">
@@ -42,24 +54,36 @@
                 <img src="media/Anemona-Profundidad.jpeg" alt="Imagen de especimenes" class="speciment-image" id="img6">
                 <img src="media/Cazador-Espectral.jpeg" alt="Imagen de especimenes" class="speciment-image" id="img7">
             </div>
-            <div class="specimen-reader-container">
-
+            <div class="specimen-reader-container"> 
             </div>
         </div>
-        </main>
+    </main>
 
-        <footer>
-            <div class="header-footer footer">
-                <h2 class="h2-footer prosto-one-regular">¿Quienes somos?</h2>
-                <p class="text-footer prosto-one-regular">Somos ConfeSuizaGalaxy, un equipo comprometido con afrontar nuevos retos. Proveniente de la ET26, "Confederación Suiza", una escuela técnica especializada en computación,
-                    aportando una variedad de conocimientos y perspectivas a nuestra misión.</p>
-                <h2 class="h2-footer prosto-one-regular">¿De qué se trata nuestro challenge?</h2>
-                <p class="text-footer prosto-one-regular">
-                    Imagínense esto: los ecosistemas de la Tierra prosperan con la luz solar, pero ¿qué pasa si nos sumergimos en un mundo oceánico donde la vida prospera con la quimiosíntesis? Imagínate diseñando un mundo así,
-    con formas de vida y ecosistemas únicos, impulsando a la astrobiología a explorar más allá de las condiciones similares a las de la Tierra. ¿Listo para sumergirte en aguas desconocidas?
-                </p>
-                <p class="warning prosto-one-regular">Cabe aclararse que toda esta información es completamente teorica y esta hecha con el fin educativo</p>
+    <footer>
+        <div class="header-footer footer">
+            <h2 id="whoAreWe" class="prosto-one-regular">Sobre nosotros</h2>
+            <div id="footerContainer">
+                <div class="footerInfo">
+                    <h2 class="h2-footer prosto-one-regular">¿Quienes somos?</h2>
+                    <p class="text-footer red-hat-text">Somos ConfeSuizaGalaxy, un equipo comprometido con afrontar
+                        nuevos retos. Proveniente de la ET26, "Confederación Suiza", una escuela técnica especializada en
+                        computación, nuestros integrantes son: Thiago Martinez, Ulises Alvelo, Muriel Soiffer y Nehuen Barrios</p>
+                </div>
+                <div id="challengeAbout" class="footerInfo">
+                    <h2 class="h2-footer prosto-one-regular">¿De qué se trata nuestro challenge?</h2>
+                    <p class="text-footer red-hat-text">
+                        Imagínense esto: los ecosistemas de la Tierra prosperan con la luz solar, pero ¿qué pasa si nos
+                        sumergimos en un mundo oceánico donde la vida prospera con la quimiosíntesis? Imagínate diseñando un
+                        mundo así,
+                        con formas de vida y ecosistemas únicos, impulsando a la astrobiología a explorar más allá de las
+                        condiciones similares a las de la Tierra. ¿Listo para sumergirte en aguas desconocidas?
+                    </p>
+                </div>
             </div>
-        </footer>
-    </body>
-    </html>
+            <p class="warning red-hat-text">Cabe aclararse que toda esta información es completamente teorica y
+                esta hecha con el fin educativo</p>
+        </div>
+    </footer>
+</body>
+
+</html>
