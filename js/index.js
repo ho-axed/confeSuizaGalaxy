@@ -18,23 +18,12 @@ $(".speciment-image").click(function(event) {
     $(this).addClass('active');
     
     let container = `
-    <div class='container-expanded'>
-        <img src="media/Img-example.png" alt="Imagen de especimenes" class="image-expanded">
+    <div class='container-expanded' id="card-info">
+        <img src="media/chemovermis-viridis.jpeg" alt="Imagen de especimenes" class="image-expanded">
         <div class='container-description'>
-            <h3 id='whatIsIt'>¿Que es?</h3>
+            <h3 id='whatIsIt'>¿Que es el Chemovermis Viridis?</h3>
             <p class='whatIsItDesc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti quas totam labore magni adipisci enim amet possimus, rem aspernatur reiciendis obcaecati. Consectetur officia, minima sed accusantium quia totam eum.
-                Reprehenderit saepe deleniti eligendi totam odit libero animi vero et, eaque iste, id autem voluptatem, quo reiciendis dolores culpa praesentium alias! Quidem sit accusantium molestiae maxime! Natus facilis aut cum.
-            </p>
-            <h3 id='whatItDoes'>¿Que hace?</h3>
-            <p class='whatItDoesDesc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti quas totam labore magni adipisci enim amet possimus, rem aspernatur reiciendis obcaecati. Consectetur officia, minima sed accusantium quia totam eum.
-                Reprehenderit saepe deleniti eligendi totam odit libero animi vero et, eaque iste, id autem voluptatem, quo reiciendis dolores culpa praesentium alias! Quidem sit accusantium molestiae maxime! Natus facilis aut cum.
-            </p>
-            <h3 id='whatIsItsInhabitat'>¿Cual es su habitat?</h3>
-            <p class='whatIsItsInhabitatDesc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corrupti quas totam labore magni adipisci enim amet possimus, rem aspernatur reiciendis obcaecati. Consectetur officia, minima sed accusantium quia totam eum.
-                Reprehenderit saepe deleniti eligendi totam odit libero animi vero et, eaque iste, id autem voluptatem, quo reiciendis dolores culpa praesentium alias! Quidem sit accusantium molestiae maxime! Natus facilis aut cum.
+                El Chemovermis Viridis es un gusano que mide alrededor de 14 cm y posee una piel gruesa recubierta por una capa mucosa de bacterias quimiosintéticas, que le dan un distintivo tono verdoso. Estas bacterias metabolizan sulfato de hidrógeno, dióxido de carbono y oxígeno, generando energía que el gusano utiliza para sobrevivir en ambientes ricos en compuestos químicos tóxicos
             </p>
         </div>
     </div>
@@ -51,3 +40,4 @@ $(".speciment-image").click(function(event) {
     }, 1000); // Ajusta el tiempo de animación según sea necesario (1000 ms = 1 segundo)
 });
 // stars animation
+
