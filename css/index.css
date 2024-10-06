@@ -211,12 +211,8 @@ div.footerInfo {
   text-align: center;
   padding-bottom: 1rem;
 }
-@media (min-width:1820px) {
-    #firstSeen{
-        top: 60%;
-        height: 72rem;
-    }    
-}
+
+
 .header-options {
   list-style: none;
   padding: 0;
@@ -303,4 +299,17 @@ border-top: #f8a ;
 
 body{
   background-color:#000;
+}
+@media (min-width:1920px) {
+    #firstSeen {
+        top: 60%;
+        height: 72rem;
+    }    
+    .planet-h2 {
+        top: 78.73em;
+    }
+    .h2-title {
+        top: 63em;
+        margin-left: 44.8rem;
+    }
 }
