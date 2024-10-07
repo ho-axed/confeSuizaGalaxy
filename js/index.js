@@ -21,9 +21,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/chemovermis-viridis.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt' >¿Que es el Gusano de Esmeralda Química (Chemovermis viridis)?</h3>
+                <h3 id='whatIsIt' >What is the Chemical Emerald Worm (Chemovermis viridis)?</h3>
                 <p class='whatIsItDesc'>
-                    El Gusano de Esmeralda Quimica (Chemovermis Viridis) es un gusano que mide alrededor de 14 cm y posee una piel gruesa recubierta por una capa mucosa de bacterias quimiosintéticas, que le dan un distintivo tono verdoso. Estas bacterias metabolizan sulfato de hidrógeno, dióxido de carbono y oxígeno, generando energía que el gusano utiliza para sobrevivir en ambientes ricos en compuestos químicos tóxicos.
+                    The Chemical Emerald Worm (Chemovermis Viridis) is a worm what have a size of 14 cm and has a thick skin covered by a mucous layer of chemosynthetic bacteria, which give it a distinctive greenish hue. These bacteria metabolize hydrogen sulfate, carbon dioxide, and oxygen, generating energy that the worm uses to survive in environments rich in toxic chemical compounds.
                 </p>
             </div>
         </div>
@@ -45,9 +45,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Pulpo-Luminiscente.jpg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es el Pulpo Luminiscente de Éter (Octolumina quimera)?</h3>
+                <h3 id='whatIsIt'>What is the Luminescent Octopus of Aether (Octolumina chimera)?</h3>
                 <p class='whatIsItDesc'>
-                    Este molusco fluorescente, similar a un pulpo, tiene 4 tentáculos y un cuerpo que brilla en tonos etéreos. En su interior alberga bacterias quimiosintéticas que transforman organismos absorbidos por sus tentáculos en energía. Este proceso lo mantiene activo y adaptado a un entorno subacuático donde la luz solar es inexistente.
+                    This fluorescent mollusk, similar to an octopus, has 4 tentacles and a body that glows in ethereal tones. Inside it houses chemosynthetic bacteria that transform organisms absorbed by its tentacles into energy. This process keeps it active and adapted to an underwater environment where sunlight is non-existent.
                 </p>
             </div>
         </div>
@@ -69,9 +69,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Pez-Incandescente.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es el Pez Incandescente de Fuego Frío (Ignisfex thermalis)?</h3>
+                <h3 id='whatIsIt'>What is the Cold-Fire Incandescent Fish (Ignisfex thermalis) ?</h3>
                 <p class='whatIsItDesc'>
-                Este pez de 10 cm vive en las profundidades cercanas a fuentes termales y filtraciones de metano. Posee bacterias quimiosintéticas en sus branquias que le permiten procesar sulfuro de hidrógeno, generando energía vital para su supervivencia en estas zonas extremas, donde prevalecen los elementos químicos sobre la luz.
+                This fish of 10 cm lives in the depths near hot springs and methane seeps. It has chemosynthetic bacteria in its gills that allow it to process hydrogen sulfide, generating vital energy for its survival in these extreme areas, where chemical elements prevail over light.
                 </p>
             </div>
         </div>
@@ -94,9 +94,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Crustaceo-Bicolor.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es el Crustáceo Bicolor (Chimera crustacea)?</h3>
+                <h3 id='whatIsIt'>What is the Bicolor Crustacean (Chimera crustacea)?</h3>
                 <p class='whatIsItDesc'>
-                El Crustáceo Bicolor mide aproximadamente 8 cm y presenta un exoesqueleto robusto de color naranja brillante con manchas negras, lo que le permite camuflarse en su entorno. Sus patas están adaptadas para excavar en el fondo marino. Este crustáceo tiene bacterias quimiosintéticas en su exoesqueleto que metabolizan sulfuro de hidrógeno, convirtiéndolo en energía utilizable. Se alimenta de materia orgánica y pequeños organismos del sustrato, optimizando su supervivencia en ambientes oscuros.
+                The Bicolor Crustacean has a size of approximate 8 cm and features a robust bright orange exoskeleton with black spots, allowing it to camouflage itself in its surroundings. Its legs are adapted for digging in the seabed. This crustacean has chemosynthetic bacteria in its exoskeleton that metabolize hydrogen sulfide, converting it into usable energy. It feeds on organic matter and small organisms in the substrate, optimizing its survival in dark environments.
                 </p>
             </div>
         </div>
@@ -118,9 +118,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Medusa-Florecente.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es la Medusa Fluorescente (Luminara medusoidea)?</h3>
+                <h3 id='whatIsIt'>What is the Fluorescent Jellyfish (Luminara medusoidea)?</h3>
                 <p class='whatIsItDesc'>
-                La Medusa Fluorescente tiene un diámetro de 25 cm y una campana translúcida que emite un brillo azul en la oscuridad. Sus tentáculos, diseñados para capturar organismos microscópicos, albergan bacterias quimiosintéticas que metabolizan sulfuro de hidrógeno y metano para producir energía. Captura plancton a través de sus tentáculos y se beneficia de la energía generada por las bacterias, estableciendo una simbiosis eficaz en su entorno sin luz solar.
+                The Fluorescent Jellyfish has a diameter of 25 cm and a translucent bell that emits a blue light in the dark. Its tentacles, designed to capture microscopic organisms, harbor chemosynthetic bacteria that metabolize hydrogen sulfide and methane to produce energy. It captures plankton through its tentacles and benefits from the energy generated by bacteria, establishing an effective symbiosis in its environment without sunlight.
                 </p>
             </div>
         </div>
@@ -142,9 +142,9 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Anemona-Profundidad.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es la Anémona de Profundidad (Anémona profundis?</h3>
+                <h3 id='whatIsIt'>What is the Depth Anemone (Anemone profundis)?</h3>
                 <p class='whatIsItDesc'>
-                La Anémona de Profundidad alcanza una altura de 30 cm y presenta tentáculos en colores vibrantes como rojo y púrpura. En su base, alberga bacterias quimiosintéticas que metabolizan sulfuro de hidrógeno, produciendo energía para su crecimiento. Filtra el agua para atrapar pequeños organismos y se nutre de los nutrientes proporcionados por las bacterias, prosperando en un ecosistema donde la luz solar no está presente.
+                The Depth Anemone has a height of 30 cm and features tentacles in vibrant colors such as red and purple. At its base, it harbors chemosynthetic bacteria that metabolize hydrogen sulfide, producing energy for its growth. It filters water to trap small organisms and feeds on nutrients provided by bacteria, thriving in an ecosystem where sunlight is not present.
                 </p>
             </div>
         </div>
@@ -166,10 +166,10 @@ $(".speciment-image").click(function(event) {
         <div class='container-expanded prosto-one-regular' id="card-info">
             <img src="media/Cazador-Espectral.jpeg" alt="Imagen de especimenes" class="image-expanded">
             <div class='container-description prosto-one-regular'>
-                <h3 id='whatIsIt'>¿Que es el Cazador Espectral (Spectridae venenosa)</h3>
+                <h3 id='whatIsIt'>What is the Spectral Hunter (Spectridae Poisonous)</h3>
                 <p class='whatIsItDesc'>
-                El Cazador Espectral mide entre 30 y 40 cm, con un cuerpo flexible y translúcido que le permite moverse sigilosamente en las profundidades. Se camufla fácilmente en su entorno gracias a su piel iridiscente y cuenta con bacterias quimiosintéticas que le proporcionan energía cuando no está cazando.
-                Especializado en atacar presas pequeñas como el Gusano de Esmeralda Química o el Pez Incandescente de Fuego Frío, inyecta un veneno paralizante a través de un aguijón retráctil. Su tamaño compacto le permite emboscar   con agilidad y aprovechar 
+                The Wraith Hunter is between 30 and 40 cm tall, with a flexible and translucent body that allows it to move stealthily in the depths. It easily hide itself in its surroundings thanks to its iridescent skin and has chemosynthetic bacteria that provide it with energy when it is not hunting.
+                Specialized in attacking small prey such as the Chemical Emerald Worm or the Coldfire Incandescent Fish, it injects a paralyzing venom through a retractable stinger. Its compact size allows it to ambush with agility and take advantage of 
 
                 </p>
             </div>
